@@ -1,0 +1,22 @@
+a = input('Введите первое значение:')
+b = input('Введите второе значение:')
+x = input('Введите значение степени для первого числа:')
+y = input('Введите значение степени для второго числа:')
+
+amount = int(a) + int(b)
+subtraction = int(a) - int(b)
+multi = int(a) * int(b)
+division = int(a) / int(b)
+integer_division = int(a) // int(b)
+exponentiation_of_the_first_number = int(a)**int(x)
+exponentiation_of_the_second_number = int(b)**int(y)
+
+print('Сложение:', amount)
+print('Вычитание:', subtraction)
+print('Умножение:', multi)
+print('Деление:', division)
+print('Целочисленное деление:', integer_division)
+print('Возведение в степень первого числа:', exponentiation_of_the_first_number)
+print('Возведение в степень второго числа:', exponentiation_of_the_second_number)
+
+input()
